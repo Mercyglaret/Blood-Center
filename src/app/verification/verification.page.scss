@@ -1,0 +1,50 @@
+
+ .btn{
+    background-color: #ea3d3d;
+    color: white;
+    width: 100%;
+    outline: none;
+}
+a{
+    font-size: 13px;
+    text-decoration: underline;
+    color: #1c1c1c;
+}
+
+ .font{
+    font-size: 22px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+p {
+   margin-top: 0;
+   margin-bottom: 0rem;
+}
+.para{
+   font-size: 12px;
+}
+.ion-focusable{
+    --highlight-color-focused: #615f5fe8;
+    padding: 0px 10px 0px 10px;
+
+    // --highlight-color-invalid: #f04141;
+    // --highlight-color-valid: #5a145a;
+}
+h3{
+    color: #ea3d3d;
+    font-weight: bolder;
+margin-top: -5px;
+
+}
+ion-card{
+    height: auto;
+    border-radius: 50%;
+    width: 80%;
+}
+ion-input{
+    font-size: 17px;
+}
+ion-label{
+    color: #1c1c1c !important;
+
+}

@@ -1,0 +1,13 @@
+ion-label{
+    color: #1c1c1c !important;
+
+}
+.ion-focusable{
+    --highlight-color-focused: #615f5fe8;
+    padding: 0px 10px 0px 10px;
+    // --highlight-color-invalid: #f04141;
+    // --highlight-color-valid: red;
+}
+.picker-button.sc-ion-picker-md, .picker-button.activated.sc-ion-picker-md {
+    color: #ea3d3d;
+}
