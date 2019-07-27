@@ -1,6 +1,6 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>personalinfo</ion-title>
+    <ion-title align="center">Personal Info</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -27,8 +27,11 @@
         <ion-input></ion-input>
     </ion-item>
     <ion-item>
-        <ion-label>D MMM YYYY H:mm</ion-label>
-        <ion-datetime displayFormat="D MMM YYYY" min="1997" max="2010" value="2005-06-17T11:06Z"></ion-datetime>
+        <ion-label  position="floating">DOB</ion-label>
+        <ion-datetime displayFormat="D MMM YYYY" min="1997" max="2010"></ion-datetime>
     </ion-item>
+    <div class="text-center">
+        <button class="btn" routerLink="/dashborad" ion-button type="submit" block>Save</button>
+    </div>
 </form>
 </ion-content>

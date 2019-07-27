@@ -1,5 +1,7 @@
 {
   "name": "bloodcenter",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
